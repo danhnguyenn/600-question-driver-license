@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thi trắc nghiệm 600 câu hỏi</title>
+    <style>
+        .hienthicautraloi {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="question" id="question">
+        <h2 id="title"></h2>
+        <ul>
+            <li>    
+                <input type="radio" name="my-answer" id="a" class="answer">
+                <label id="answer_a" for="a"></label>
+            </li>
+            <li>    
+                <input type="radio" name="my-answer" id="b" class="answer">
+                <label id="answer_b" for="b"></label>
+            </li>
+            <li id="question-c">    
+                <input type="radio" name="my-answer" id="c" class="answer">
+                <label id="answer_c" for="c"></label>
+            </li>
+            <li id="question-d">    
+                <input type="radio" name="my-answer" id="d" class="answer">
+                <label id="answer_d" for="d"></label>
+            </li>
+            <input type="hidden" id="answer-correct">
+            <input type="hidden" id="answer-count">
+        </ul>
+        <button id="btnNext">Nút kế tiếp</button>
+        
+    </div>
+    <script src="../script.js"></script>
+</body>
+</html>
